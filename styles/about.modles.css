@@ -1,0 +1,111 @@
+
+  
+
+  
+
+  
+  @media screen and (max-width: 780px) {
+    body {
+      background: white;
+      overflow: scroll;
+    }
+    /* top-header */
+    .mobile {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+    }
+    .header-container {
+      position: relative;
+    }
+    .svg-menu {
+      display: flex;
+      color: red;
+      z-index: 99;
+    }
+    .header-top {
+      position: fixed;
+      right: 2rem;
+      z-index: 99;
+      margin-right: -2rem;
+      margin-left: 0;
+    }
+    .header-list > ul {
+      flex-direction: column;
+      margin-top: 12rem;
+      font-size: 1.4rem;
+      padding: 1rem;
+      width: 100%;
+      height: 7rem;
+      gap: 2rem;
+    }
+    .mobile-menus {
+      background: transparent;
+      z-index: 33;
+      margin-left: -4rem;
+      margin-right: -15rem;
+      width: 100%;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-left: 28rem;
+      height: 60rem;
+      gap: 1rem;
+      overflow: auto;
+    }
+    .logo {
+      margin-left: -3rem;
+      width: 84px;
+      height: 23px;
+    }
+    .cancel-btn {
+      display: flex;
+      z-index: 1009;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      cursor: pointer;
+    }
+    .header {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 100%;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 0;
+      flex: 1 1 1;
+    }
+    .way-text {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+    .bye {
+      margin-top: -1px;
+      font-size: 1.1rem;
+    }
+    .right-header {
+      display: none;
+      flex: 0%;
+    }
+    .right-header-top {
+      margin-right: 54rem;
+      margin-top: 50rem;
+      margin-left: -16rem;
+    }
+  }
+  .mobile-menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8rem;
+  }
+  .cancel-btn {
+    display: none;
+  }
+  
