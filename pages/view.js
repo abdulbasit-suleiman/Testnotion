@@ -12,7 +12,7 @@ import Operation from "@/components/operations";
 import UsersQuestions from "@/components/usersQuestions";
 import Subscribe from "@/components/subscribe";
 import Footer from "@/components/footer";
-function CustomerViewPage() {
+function  CustomerViewPage() {
   
   return (
     <div>

@@ -1,8 +1,10 @@
-import view from './view'
+import CustomerViewPage from "./view";
 
-export default function Home() {
-
-return(<>
-    <view />
-</>)
+function Home() {
+  return (
+    <div>
+      <CustomerViewPage/>
+    </div>
+  );
 }
+export default Home;
